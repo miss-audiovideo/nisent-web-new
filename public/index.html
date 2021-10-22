@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <title>Fyle Universe</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+<!-- Bootstrap Navigation bar -->
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"/>
+    
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/vendors/linericon/style.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="assets/vendors/animate-css/animate.css">
+	<link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
+	<link rel="stylesheet" href="assets/vendors/popup/magnific-popup.css">
+	<link rel="stylesheet" href="assets/vendors/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/vendors/scroll/jquery.mCustomScrollbar.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    
+    /* Add a background color when the inputs get focus */
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      font-weight: bolder;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width: 100%;
+      font-size: 20px;
+      opacity: 0.9;
+    }
+    
+    
+    button:hover {
+      opacity:1;
+    }
+    
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #f44336;
+    }
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Add padding to container elements */
+    .container {
+      padding: 20px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1000; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: #474e5d;
+      
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      font-size: 20px;
+    
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: #fefefe;
+      margin: 1% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 1px solid #888;
+      width: 50%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* Style the horizontal ruler */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+     
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 58px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #f44336;
+      cursor: pointer;
+    }
+    .single-amenities{
+      background-color: white;
+      z-index: 1000;
+    }
+    .single-amenities:hover{
+      background-color: #ffeee0;
+      z-index: 1000;
+      box-shadow: -21px 22px 23px -7px rgba(80,76,76,0.57);
+    -webkit-box-shadow: -21px 22px 23px -7px rgba(80,76,76,0.57);
+    -moz-box-shadow: -21px 22px 23px -7px rgba(80,76,76,0.57);
+    }
+    @media screen and (max-width:440px){
+      .single-amenities .img-fluid {
+        height: 120px;
+      }
+     #sec-features{
+      display: none;
+    }
+    }
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 360px) {
+      .cancelbtn, .signupbtn {
+         width: 100%;
+      }
+     
+    }
+    
+    
+    .sec-features button{
+      background: lightgrey;
+    }
+    .sec-features button:hover{
+      background: #ff875e;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+
+
+    <!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/popper.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/stellar.js"></script>
+	<script src="assets/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/vendors/isotope/isotope-min.js"></script>
+	<script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+	<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+	<script src="assets/js/mail-script.js"></script>
+	<script src="assets/vendors/popup/jquery.magnific-popup.min.js"></script>
+	<script src="assets/vendors/swiper/js/swiper.min.js"></script>
+	<script src="assets/vendors/scroll/jquery.mCustomScrollbar.js"></script>
+	<script src="assets/js/theme.js"></script>
+  </body>
+</html>
