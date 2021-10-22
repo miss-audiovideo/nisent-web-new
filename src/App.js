@@ -6,7 +6,7 @@ import Fitness from './Component/Engineering/Fitness';
 import Fmea from './Component/Engineering/Fmea';
 import Intergrity from './Component/Engineering/Intergrity';
 import Surge from './Component/Engineering/Surge';
-import Vibration from './Component/Engineering/Service';
+import Vibration from './Component/Engineering/Vibration';
 import Turnaround from './Component/Plantmore/Turnaround';
 import Balancing from './Component/Plantmore/Balancing';
 import Commisioning from './Component/Plantmore/Commisioning';
