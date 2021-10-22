@@ -72,28 +72,28 @@ function App(){
         <Route exact path="/Plantmore/Field">
           <Field />
         </Route>
-        <Route exact path="/whitepaper">
+        <Route exact path="/Whitepaper">
           <div>Hi17</div>
         </Route>
-        <Route exact path="/resources">
+        <Route exact path="/Resources">
           <div>Hi18</div>
         </Route>
-        <Route exact path="/blogs">
+        <Route exact path="/Blogs">
           <div>Hi19</div>
         </Route>
-        <Route exact path="/about">
+        <Route exact path="/About">
           <div>Hi20</div>
         </Route>
-        <Route exact path="/leadership">
+        <Route exact path="/Leadership">
           <div>Hi21</div>
         </Route>
-        <Route exact path="/policies">
+        <Route exact path="/Policies">
           <div>Hi22</div>
         </Route>
-        <Route exact path="/sustanibility">
+        <Route exact path="/Sustanibility">
           <div>Hi23</div>
         </Route>
-        <Route exact path="/careers">
+        <Route exact path="/Careers">
           <div>Hi24</div>
         </Route>
       </Switch>
