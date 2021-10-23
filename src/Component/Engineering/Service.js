@@ -6,7 +6,6 @@ import two from './img/two.png';
 import pac2 from './img/pac2.jpg';
 import three from './img/three.png';
 
-
 class Service extends React.Component {
     render() {
         return (
@@ -27,7 +26,7 @@ class Service extends React.Component {
                             </a><br /><br /><br /><br />
                         </div>
                     </div>
-                    <div class="col-lg-6 offset-lg-1 col-md-12">
+                    <div class="col-lg-3 offset-lg-1 col-md-12">
                         <div class="owl-carousel active-gallery-carousel" style={{ marginLeft: "40%" }}>
                             {/* <!-- single gallery --> */}
                             <div class="single-gallery" >

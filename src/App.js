@@ -14,6 +14,8 @@ import Esp from './Component/Plantmore/Esp';
 import Om from './Component/Plantmore/Om';
 import Field from './Component/Plantmore/Field';
 
+import Engineering from './Component/Engineering';
+
 
 
 
@@ -36,6 +38,9 @@ function App(){
         </Route>
         <Route exact path="/Trendius/Performance">
           <div>Hi4</div>
+        </Route>
+        <Route exact path="/Engineering">
+          <Engineering />
         </Route>
         <Route exact path="/Engineering/Acoustics">
           <Acoustics />

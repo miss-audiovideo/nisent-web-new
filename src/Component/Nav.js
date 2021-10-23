@@ -18,7 +18,7 @@ function Nav() {
         <ReactBootStrap.NavDropdown.Item ><Link to="/Trendius/Predective">Predective Analytics</Link></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item ><Link to="/Trendius/Performance">Performance Analytics</Link></ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
-      <ReactBootStrap.NavDropdown title="Engineering" id="nav-dropdown">
+      <ReactBootStrap.NavDropdown title="Engineering" Link to="/Engineering" href="/Engineering" id="nav-dropdown">
         <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Acoustics">Acoustics & Pulsation</Link></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Vibration">Vibration and Noise</Link></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Fmea">FMEA</Link></ReactBootStrap.NavDropdown.Item>
