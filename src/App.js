@@ -22,6 +22,7 @@ import Field from './Component/Plantmore/Field';
 function App(){
   return(
     <Router>
+      <div>
       <Nav />
       <Switch>
         <Route exact path="/Products/Sentinel">
@@ -97,8 +98,9 @@ function App(){
           <div>Hi24</div>
         </Route>
       </Switch>
+      </div>
     </Router>
   );
-};
+}
 
 export default App;

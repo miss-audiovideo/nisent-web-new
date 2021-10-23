@@ -7,7 +7,7 @@ function Nav() {
 
   return (
     <>
-    <Router>
+    
     <ReactBootStrap.Nav variant="pills"  style={{background: "crimson",textDecoration:"none",fontSize:"18px"}}>
       <ReactBootStrap.NavDropdown title="Products" id="nav-dropdown"  >
 
@@ -67,7 +67,7 @@ function Nav() {
         <ReactBootStrap.NavDropdown.Item ><Link to="/Careers">Careers</Link></ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>      
     </ReactBootStrap.Nav>
-    </Router>
+  
     </>
   );
 }

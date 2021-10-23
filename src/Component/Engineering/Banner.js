@@ -23,7 +23,7 @@ class Banner extends React.Component {
 
 
 
-                            <a href="" class="main_btn" onclick="document.getElementById('id01').style.display='block'" style={{ width: 'auto', fontSize: '14px', backgroundColor: 'rgb(250, 66, 52)', color: 'whitesmoke', fontWeight: 'bold' }}>
+                            <a href="#" class="main_btn" onclick="document.getElementById('id01').style.display='block'" style={{ width: 'auto', fontSize: '14px', backgroundColor: 'rgb(250, 66, 52)', color: 'whitesmoke', fontWeight: 'bold' }}>
                                 Get Started
                                 <img src={next} alt="" />
                             </a>
