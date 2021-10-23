@@ -34,26 +34,8 @@ function Nav() {
         <ReactBootStrap.NavDropdown.Item ><Link to="/Plantmore/Esp">ESP</Link></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item ><Link to="/Plantmore/Field">Field Condition Monitoring</Link></ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
-      <ReactBootStrap.NavDropdown title="Trendius" id="nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Trendius/Predective">Predective Analytics</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Trendius/Performance">Performance Analytics</Link></ReactBootStrap.NavDropdown.Item>
-      </ReactBootStrap.NavDropdown>
-      <ReactBootStrap.NavDropdown title="Engineering" id="nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Acoustics">Acoustics & Pulsation</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Vibration">Vibration and Noise</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Fmea">FMEA</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Intergrity">Intergrity & Reliability</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Surge">Surge & Fluid Dynamics</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Engineering/Fitness">Fitness for Services</Link></ReactBootStrap.NavDropdown.Item>
-      </ReactBootStrap.NavDropdown>
-      <ReactBootStrap.NavDropdown title="PlantMORE" id="nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Turnaround">Turnaround</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Balancing">Balancing & Alignment</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Om">O&M</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Commisioning">Commisioning and Startup</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Esp">ESP</Link></ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item ><Link to="/Plant/Field">Field Condition Monitoring</Link></ReactBootStrap.NavDropdown.Item>
-      </ReactBootStrap.NavDropdown>
+     
+      
       <ReactBootStrap.NavDropdown title="Prespectives" id="nav-dropdown">
         <ReactBootStrap.NavDropdown.Item ><Link to="/Whitepaper">Whitepaper</Link></ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item ><Link to="/Resources">Resources</Link></ReactBootStrap.NavDropdown.Item>
